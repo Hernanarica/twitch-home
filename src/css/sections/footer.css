@@ -1,0 +1,21 @@
+.site__footer {
+	grid-area: footer;
+	display: flex;
+	justify-content: space-between;
+	padding-inline: 1.5rem;
+	padding-block: 0.75rem;
+	background: var(--secondary);
+}
+
+.site__footer-login,
+.site__footer-info {
+	display: flex;
+	align-items: center;
+	gap: 1.5rem;
+}
+
+.site__footer-paragraph {
+	margin: 0;
+	color: #ffffff;
+	font-family: inter-regular, sans-serif;
+}

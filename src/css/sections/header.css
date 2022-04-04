@@ -1,0 +1,4 @@
+.site__header {
+	grid-area: header;
+	background: var(--white);
+}

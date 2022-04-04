@@ -1,0 +1,10 @@
+.site {
+	display: grid;
+	min-block-size: 100vh;
+	grid-template-columns: 385px 1fr;
+	grid-template-rows: 68px 1fr 88px;
+	grid-template-areas:
+		"header header"
+		"side-bar content"
+		"footer footer";
+}

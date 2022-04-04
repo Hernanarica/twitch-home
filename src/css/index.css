@@ -1,1 +1,12 @@
+/* Bootstrapping files */
 @import "./bootstrapping/bootstrapping.css";
+
+/* Sections files */
+@import "./sections/site.css";
+@import "sections/header.css";
+@import "sections/side-bar.css";
+@import "sections/content.css";
+@import "sections/footer.css";
+
+/* Components files */
+@import "./components/buttons.css";
