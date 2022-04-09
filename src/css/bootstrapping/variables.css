@@ -2,6 +2,7 @@
 	--primary: #772CE8;
 	--secondary: #5C16C5;
 	--tertiary: #9147FF;
+	--notification: #E91916;
 	--inactive: #E50914;
 	--active: #48D23C;
 	--black: #0E0E10;
@@ -11,5 +12,7 @@
 	--gray-200: #F7F7F8;
 	--gray-300: #EAEAEB;
 	--gray-400: #DEDEDF;
-	--gray-500: #6C7B89;
+	--gray-500: #E5E5E5;
+	--gray-600: #6C7B89;
+	--gray-700: #444444;
 }

@@ -1,4 +1,23 @@
-.site__side-bar {
+.side-bar {
 	grid-area: side-bar;
 	background: var(--gray-100);
+	padding: 0.625rem;
+}
+
+.side-bar__header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-block-end: 0.625rem;
+}
+
+.side-bar__header-title {
+	font-size: 0.8125rem;
+	font-family: inter-semi, sans-serif;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.side-bar__header span[class^='icon__'] {
+	font-size: 1.25rem;
 }

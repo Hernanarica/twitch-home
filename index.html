@@ -8,20 +8,181 @@
 		<title>Twitch</title>
 	</head>
 	<body class="site">
-		<header class="site__header"></header>
-		<aside class="site__side-bar"></aside>
-		<main class="site__content">
-			<h1>hola</h1>
+		<header class="header">
+			<div class="header__branding">
+				<img src="./src/assets/imgs/logos/logo.png" alt="Twitch" width="35" height="35" class="header__branding-image">
+				<h1 class="header__branding-title">Browse</h1>
+				<button type="button" class="btn-icon" aria-label="see more">
+					<span class="icon__more" aria-hidden="true"></span>
+				</button>
+			</div>
+			<div class="header__searcher">
+				<label for="search" class="sr-only">Search</label>
+				<input type="text" name="search" id="search" placeholder="Search" class="header__searcher-input header__searcher-input--hover header__searcher-input--focus">
+				<button type="button" class="header__searcher-button" aria-label="Search">
+					<span class="icon__search" aria-hidden="true"></span>
+				</button>
+			</div>
+			<div class="header__profile">
+				<button type="button" class="btn-icon header__profile-notification" aria-hidden="true">
+					<span class="icon__notification" aria-hidden="true"></span>
+				</button>
+				<button type="button" class="btn btn--fill">Log In</button>
+				<button type="button" class="btn btn--active">Sign Up</button>
+				<button type="button" class="btn-icon" aria-label="Sign">
+					<span class="icon__profile" aria-hidden="true"></span>
+				</button>
+			</div>
+		</header>
+		<aside class="side-bar">
+			<div class="side-bar__header">
+				<h2 class="side-bar__header-title">Recommended Channels</h2>
+				<button type="button" class="btn-icon">
+					<span class="icon__collapse"></span>
+				</button>
+			</div>
+			<div class="profiles">
+				<div class="profile">
+					<div class="profile__info">
+						<img src="./src/assets/imgs/chanels/user-1.png" alt="Ibai" width="30" height="30" class="profile__info-image">
+						<div class="profile__info-details">
+							<p class="profile__info-name">Ibai</p>
+							<p class="profile__info-game">Grand Theft Auto V</p>
+						</div>
+					</div>
+					<div class="profile__followers">
+						<div class="channel-ball"></div>
+						<span class="profile__followers-amount">35.4k</span>
+					</div>
+				</div>
+				<div class="profile">
+					<div class="profile__info">
+						<img src="./src/assets/imgs/chanels/user-1.png" alt="Ibai" width="30" height="30" class="profile__info-image">
+						<div class="profile__info-details">
+							<p class="profile__info-name">Ibai</p>
+							<p class="profile__info-game">Grand Theft Auto V</p>
+						</div>
+					</div>
+					<div class="profile__followers">
+						<div class="channel-ball"></div>
+						<span class="profile__followers-amount">35.4k</span>
+					</div>
+				</div>
+				<div class="profile">
+					<div class="profile__info">
+						<img src="./src/assets/imgs/chanels/user-1.png" alt="Ibai" width="30" height="30" class="profile__info-image">
+						<div class="profile__info-details">
+							<p class="profile__info-name">Ibai</p>
+							<p class="profile__info-game">Grand Theft Auto V</p>
+						</div>
+					</div>
+					<div class="profile__followers">
+						<div class="channel-ball"></div>
+						<span class="profile__followers-amount">35.4k</span>
+					</div>
+				</div>
+				<div class="profile">
+					<div class="profile__info">
+						<img src="./src/assets/imgs/chanels/user-1.png" alt="Ibai" width="30" height="30" class="profile__info-image">
+						<div class="profile__info-details">
+							<p class="profile__info-name">Ibai</p>
+							<p class="profile__info-game">Grand Theft Auto V</p>
+						</div>
+					</div>
+					<div class="profile__followers">
+						<div class="channel-ball"></div>
+						<span class="profile__followers-amount">35.4k</span>
+					</div>
+				</div>
+				<div class="profile">
+					<div class="profile__info">
+						<img src="./src/assets/imgs/chanels/user-1.png" alt="Ibai" width="30" height="30" class="profile__info-image">
+						<div class="profile__info-details">
+							<p class="profile__info-name">Ibai</p>
+							<p class="profile__info-game">Grand Theft Auto V</p>
+						</div>
+					</div>
+					<div class="profile__followers">
+						<div class="channel-ball"></div>
+						<span class="profile__followers-amount">35.4k</span>
+					</div>
+				</div>
+				<div class="profile">
+					<div class="profile__info">
+						<img src="./src/assets/imgs/chanels/user-1.png" alt="Ibai" width="30" height="30" class="profile__info-image">
+						<div class="profile__info-details">
+							<p class="profile__info-name">Ibai</p>
+							<p class="profile__info-game">Grand Theft Auto V</p>
+						</div>
+					</div>
+					<div class="profile__followers">
+						<div class="channel-ball"></div>
+						<span class="profile__followers-amount">35.4k</span>
+					</div>
+				</div>
+				<div class="profile">
+					<div class="profile__info">
+						<img src="./src/assets/imgs/chanels/user-1.png" alt="Ibai" width="30" height="30" class="profile__info-image">
+						<div class="profile__info-details">
+							<p class="profile__info-name">Ibai</p>
+							<p class="profile__info-game">Grand Theft Auto V</p>
+						</div>
+					</div>
+					<div class="profile__followers">
+						<div class="channel-ball"></div>
+						<span class="profile__followers-amount">35.4k</span>
+					</div>
+				</div>
+				<div class="profile">
+					<div class="profile__info">
+						<img src="./src/assets/imgs/chanels/user-1.png" alt="Ibai" width="30" height="30" class="profile__info-image">
+						<div class="profile__info-details">
+							<p class="profile__info-name">Ibai</p>
+							<p class="profile__info-game">Grand Theft Auto V</p>
+						</div>
+					</div>
+					<div class="profile__followers">
+						<div class="channel-ball"></div>
+						<span class="profile__followers-amount">35.4k</span>
+					</div>
+				</div>
+			</div>
+		</aside>
+		<main class="content">
+			<div class="banner">
+				<button type="button" class="btn btn--unfilled icon__left"></button>
+				<div class="banner__slide">
+					<img src="./src/assets/imgs/banners/banner-1.png" alt="Banner" class="banner__slide-image">
+					<div class="banner__slide-info">
+						<div class="card-profile">
+							<img src="./src/assets/imgs/chanels/user-2.png" alt="Channel" width="38" height="38" class="card-profile__image">
+							<div class="card-profile__info">
+								<p class="card-profile__info-name">Rubius</p>
+								<p class="card-profile__info-game">Lost Ark</p>
+								<p class="card-profile__info-viewers">3k Viewers</p>
+							</div>
+						</div>
+						<div class="card-profile__categories">
+							<div class="badge">English</div>
+							<div class="badge">Educational</div>
+						</div>
+					</div>
+				</div>
+				<button type="button" class="btn btn--unfilled icon__right"></button>
+			</div>
+			<div class="live-channels">
+			
+			</div>
 		</main>
-		<footer class="site__footer">
-			<div class="site__footer-info">
-				<img src="./src/assets/imgs/logos/footer__logo.png" alt="Logo footer">
-				<p class="site__footer-paragraph">
+		<footer class="footer">
+			<div class="footer-info">
+				<img src="./src/assets/imgs/logos/footer__logo.png" alt="Logo footer" width="40" height="40">
+				<p class="footer-paragraph">
 					<strong>Join the Twitch community!</strong>
 					Discover the best live streams anywhere
 				</p>
 			</div>
-			<div class="site__footer-login">
+			<div class="footer-login">
 				<button class="btn">Sign Up</button>
 			</div>
 		</footer>

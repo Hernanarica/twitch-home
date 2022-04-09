@@ -1,0 +1,55 @@
+.profiles {
+	display: flex;
+	flex-direction: column;
+	gap: 0.625rem;
+}
+
+.profile {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.profile__info {
+	display: flex;
+	align-items: center;
+	gap: 0.75rem;
+}
+
+.profile__info-image {
+	vertical-align: middle;
+}
+
+.profile__info-details {
+	display: flex;
+	flex-direction: column;
+	gap: 0.125rem;
+}
+
+.profile__info-name,
+.profile__info-game,
+.profile__followers-amount {
+	margin: 0;
+	font-size: 13px;
+}
+
+.profile__info-name {
+	font-family: inter-semi, sans-serif;
+	font-size: 14px;
+}
+
+.profile__info-game {
+	font-family: inter-regular, sans-serif;
+	color: var(--gray-600);
+}
+
+.profile__followers-amount {
+	font-family: inter-regular, sans-serif;
+}
+
+.profile__followers {
+	align-self: flex-start;
+	display: flex;
+	align-items: center;
+	gap: 0.3125rem;
+}

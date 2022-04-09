@@ -1,0 +1,10 @@
+.badge {
+	padding-block: 0.25rem;
+	padding-inline: 0.75rem;
+	inline-size: fit-content;
+	border-radius: 12px;
+	font-size: 0.875rem;
+	font-family: inter-regular, sans-serif;
+	background: var(--gray);
+	color: var(--black);
+}

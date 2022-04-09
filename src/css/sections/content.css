@@ -1,4 +1,8 @@
-.site__content {
+.content {
 	grid-area: content;
-	background: var(--white);
+	display: flex;
+	flex-direction: column;
+	gap: 2.375rem;
+	padding: 2.5rem;
+	background: var(--gray-200);
 }

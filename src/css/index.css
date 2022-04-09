@@ -3,10 +3,16 @@
 
 /* Sections files */
 @import "./sections/site.css";
-@import "sections/header.css";
-@import "sections/side-bar.css";
-@import "sections/content.css";
-@import "sections/footer.css";
+@import "./sections/header.css";
+@import "./sections/side-bar.css";
+@import "./sections/content.css";
+@import "./sections/footer.css";
+@import "./sections/live-channels.css";
 
 /* Components files */
 @import "./components/buttons.css";
+@import "./components/profile.css";
+@import "./components/channel-ball.css";
+@import "./components/banner.css";
+@import "./components/badge.css";
+@import "./components/card-profile.css";

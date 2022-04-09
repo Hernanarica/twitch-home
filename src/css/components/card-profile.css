@@ -1,0 +1,42 @@
+.card-profile {
+	display: flex;
+	align-items: center;
+	gap: 0.75rem;
+}
+
+.card-profile__image {
+	vertical-align: middle;
+}
+
+.card-profile__info {
+	display: flex;
+	flex-direction: column;
+	gap: 0.125rem;
+}
+
+.card-profile__info-name,
+.card-profile__info-viewers,
+.card-profile__info-game {
+	margin: 0;
+	font-size: 13px;
+}
+
+.card-profile__info-name {
+	font-family: inter-semi, sans-serif;
+	font-size: 14px;
+}
+
+.card-profile__info-game {
+	font-family: inter-regular, sans-serif;
+	color: var(--gray-600);
+}
+
+.card-profile__info-viewers {
+	font-family: inter-regular, sans-serif;
+	color: var(--gray-600);
+}
+
+.card-profile__categories {
+	display: flex;
+	gap: 0.5rem;
+}
