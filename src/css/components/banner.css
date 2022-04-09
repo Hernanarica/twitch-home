@@ -9,12 +9,13 @@
 
 .banner__slide {
 	display: flex;
-	min-inline-size: 1294px;
+	max-inline-size: 1294px;
 	inline-size: 100%;
 }
 
 .banner__slide-image {
-	flex: 1;
+	inline-size: 50%;
+	object-fit: cover;
 }
 
 .banner__slide-info {
