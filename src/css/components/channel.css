@@ -1,0 +1,72 @@
+.channel {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	/*inline-size: 316px;*/
+}
+
+.channel__image-container {
+	background: var(--active);
+	inline-size: 100%;
+}
+
+.channel__image {
+	inline-size: 100%;
+	vertical-align: middle;
+}
+
+.channel__image-container-wrapper {
+	position: relative;
+}
+
+.channel__image-container-wrapper:after {
+	content: 'live';
+	display: block;
+	position: absolute;
+	inset-inline-start: 12px;
+	inset-block-start: 12px;
+	padding-inline: 0.375rem;
+	padding-block: 0.25rem;
+	border-radius: 0.375rem;
+	background: var(--live);
+	color: var(--white);
+	font-size: 0.875rem;
+	font-family: inter-semi, sans-serif;
+	text-transform: uppercase;
+}
+
+.channel__image--hover:hover {
+	transform: translate(6px, -5px);
+}
+
+.channel__info {
+	display: flex;
+	align-items: flex-start;
+	gap: 0.75rem;
+}
+
+.channel__info-details {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+
+.channel__info-details > * {
+	margin: 0;
+}
+
+.channel__info-details-title {
+	color: var(--black);
+	font-family: inter-semi, sans-serif;
+	font-size: 0.9375rem;
+}
+
+.channel__info-details-name,
+.channel__info-details-game {
+	font-family: inter-regular, sans-serif;
+	color: var(--gray-600);
+}
+
+.channel__info-details-badges {
+	display: flex;
+}

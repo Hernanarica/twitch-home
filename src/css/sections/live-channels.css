@@ -1,0 +1,13 @@
+.live-channels {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto 370px 1fr;
+	gap: 1rem;
+}
+
+.live-channels__title {
+	margin: 0;
+	color: var(--black);
+	font-family: inter-semi, sans-serif;
+	font-size: 1.125rem;
+}
